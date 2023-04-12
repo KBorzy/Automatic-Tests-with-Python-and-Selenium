@@ -24,4 +24,4 @@
 > Update the input_data.xlsx file in the resources folder with the appropriate email and password data for testing.
 > Implement test cases in the tests folder using pytest framework, importing the necessary actions and pages from the actions and pages folders respectively.
 > Run the tests using pytest, and review the test results.
-####That's it! You're now ready to write and run tests for the web application using pytest and Selenium. Happy testing!
+**That's it! You're now ready to write and run tests for the web application using pytest and Selenium. Happy testing!**
