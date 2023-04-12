@@ -1,3 +1,5 @@
+from selenium.webdriver.support.ui import Select
+
 class Actions:
     driver = None
 
@@ -12,3 +14,7 @@ class Actions:
 
     def getText(self, element):
         return element.text
+
+    def select_by_visible_text(self, select_element, visible_text):
+        select = Select(select_element)
+        select.select_by_visible_text(visible_text)

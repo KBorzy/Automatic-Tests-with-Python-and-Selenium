@@ -6,7 +6,7 @@ class Data:
         workbook = openpyxl.load_workbook(file_path)
         sheet = workbook.active
 
-        email = sheet.cell(row=1, column=1).value
-        password = sheet.cell(row=2, column=1).value
+        email = sheet.cell(row=2, column=1).value
+        password = sheet.cell(row=2, column=2).value
 
         return {'email': email, 'password': password}
